@@ -6494,7 +6494,7 @@ if (typeof window !== "undefined" && !window.famobi_tracking) {
         var EVENT_PARAMS = {
             'level':            'number',   // The current level number
             'score':            'number',   // Scores
-            'stars':            'number',   // Earned stars
+            'stars':            '100',   // Earned stars
             'movesAvailable':   'number',   // Total number of available moves
             'movesLeft':        'number',   // Moves left when the user finishes the level
             'success':          'boolean',  // User has successfully solved the level
